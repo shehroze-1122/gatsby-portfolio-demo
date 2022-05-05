@@ -28,6 +28,7 @@ p {
 .layout {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0px 10px;
 }
 nav {
   display: grid;
@@ -48,7 +49,9 @@ nav a {
 nav a:hover {
   border-color: white;
 }
-
+nav a:active {
+  border-color: white;
+}
 footer p {
   text-align: center;
   color: #bbb;
